@@ -97,7 +97,7 @@ ORDER BY c.total_spent DESC;
 ```
 ## 🏆 4. Top 3 Highest-Paid Employees Per Department
 
-###📝 Problem
+### 📝 Problem
 Retrieve the top 3 highest-paid employees within each department.
 
 ### 💡 Intuition
@@ -136,24 +136,24 @@ WHERE total_orders >= 3;
 ```
 ### ⚙️ Concepts Practiced
 
-🧩 Common Table Expressions (CTEs)
-🧮 Aggregate Functions (AVG, SUM, COUNT)
-📊 Window Functions (ROW_NUMBER())
-🔗 Data Filtering & Joins
-🧠 Analytical Query Patterns
+    🧩 Common Table Expressions (CTEs)
+    🧮 Aggregate Functions (AVG, SUM, COUNT)
+    📊 Window Functions (ROW_NUMBER())
+    🔗 Data Filtering & Joins
+    🧠 Analytical Query Patterns
 
 ### 🧾 Summary
 
-This SQL set showcases how CTEs can:
+    This SQL set showcases how CTEs can:
 
-✅ Break down complex logic into simple, readable blocks
-✅ Simplify subqueries and multi-step joins
-✅ Enhance query clarity and maintainability
+    ✅ Break down complex logic into simple, readable blocks
+    ✅ Simplify subqueries and multi-step joins
+    ✅ Enhance query clarity and maintainability
 
 Each query builds upon real-world business logic — from analyzing employee salaries to understanding customer behavior.
 
 ### 👨‍💻 Author
-Vivek Pradhan
-SQL Practice | Analytical Query Building | Real-world Business Logic
+    Vivek Pradhan
+    SQL Practice | Analytical Query Building | Real-world Business Logic
 
 ⭐ If you found this helpful, consider giving the repository a star! ⭐

@@ -152,7 +152,7 @@ This SQL set showcases how CTEs can:
 
 Each query builds upon real-world business logic — from analyzing employee salaries to understanding customer behavior.
 
-👨‍💻 Author
+### 👨‍💻 Author
 Vivek Pradhan
 SQL Practice | Analytical Query Building | Real-world Business Logic
 

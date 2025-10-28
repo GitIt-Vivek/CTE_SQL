@@ -101,8 +101,8 @@ ORDER BY c.total_spent DESC;
 Retrieve the top 3 highest-paid employees within each department.
 
 ### 💡 Intuition
-1.Assign row numbers to employees within each department using the ROW_NUMBER() window function.
-2.Select only those rows where the rank ≤ 3.
+ 1.Assign row numbers to employees within each department using the ROW_NUMBER() window function.
+ 2.Select only those rows where the rank ≤ 3.
 
 ### 💻 SQL Solution
 ```sql
@@ -119,7 +119,7 @@ WHERE rnk <= 3;
 ### 📝 Problem
 Find all customers who have placed at least 3 orders.
 
-## 💡 Intuition
+### 💡 Intuition
 1.Count the number of orders per customer using GROUP BY.
 2.Use a CTE to filter out customers with 3 or more orders.
 
